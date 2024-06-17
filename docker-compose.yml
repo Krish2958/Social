@@ -1,0 +1,29 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres
+    ports:
+      - "5431:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+
+  web:
+    build: .
+    command: uvicorn social_network.asgi:application --host 0.0.0.0 --port 80 --reload --log-config log_config.json
+    volumes:
+      - .:/code
+      - ./temp/:/tmp/
+    ports:
+      - "8000:80"
+    depends_on:
+      - db
+    env_file:
+      - "config/.env.local"
+
+volumes:
+  pgdata:
