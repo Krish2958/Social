@@ -76,7 +76,9 @@ The API exposes various endpoints to handle different functionalities. Here are 
 
 
 
-
+---
+#### Currently Test Enviornment Deployed at [http://4.213.201.125/](http://4.213.201.125/).
+---
 ---
 
 For any questions or issues, please open an issue in the repository or contact [me](https://krishmaheshwari.carrd.co).
