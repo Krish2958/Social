@@ -97,11 +97,11 @@ WSGI_APPLICATION = 'social_network.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": EnvVariables.DATABASE_NAME.value,
-        "USER": EnvVariables.DATABASE_USER.value,
-        "PASSWORD": EnvVariables.DATABASE_PASSWORD.value,
-        "HOST": EnvVariables.DATABASE_HOST.value,
-        "PORT": EnvVariables.DATABASE_PORT.value,
+        "NAME": EnvVariables.SUPABASE_DB_NAME.value,
+        "USER": EnvVariables.SUPABASE_DB_USER.value,
+        "PASSWORD": EnvVariables.SUPABASE_DB_PASSWORD.value,
+        "HOST": EnvVariables.SUPABASE_DB_HOST.value,
+        "PORT": EnvVariables.SUPABASE_DB_PORT.value,
     }
 }
 
