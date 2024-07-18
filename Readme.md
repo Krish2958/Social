@@ -77,7 +77,7 @@ The API exposes various endpoints to handle different functionalities. Here are 
 
 
 ---
-#### Currently Test Enviornment Deployed at [http://4.213.201.125/](http://4.213.201.125/).
+#### Currently Test Enviornment Deployed at [https://springfly-tail.toystack.dev/](https://springfly-tail.toystack.dev/).
 ---
 ---
 
