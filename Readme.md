@@ -74,11 +74,6 @@ The API exposes various endpoints to handle different functionalities. Here are 
 - **Send Friend Request** `POST` `api/friend-requests/{USER_ID}/send_request/`
 - **Update Friend Request** `POST` `api/friend-requests/{FRIEND_REQUEST_ID}/update_request/`
 
-
-
----
-#### Currently Test Enviornment Deployed at [https://springfly-tail.toystack.dev/](https://springfly-tail.toystack.dev/).
----
 ---
 
 For any questions or issues, please open an issue in the repository or contact [me](https://krishmaheshwari.carrd.co).
